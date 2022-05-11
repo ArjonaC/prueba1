@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.caja {
+    border: 3px solid black;
+    margin: 2rem;
+    backgroundgra aquamarine;
+    width: 300px;
+    padding: 300px;
+}
+
+.luna img {
+    width: 30%;
+
+}
+
+.girar {
+    animation-name: luna-gira;
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+        
+}
+
+@keyframes luna-gira {
+    from{
+        transform: rotate(0);
+    }
+to{
+    transform:rotate(360deg)
+}
+    
+}
